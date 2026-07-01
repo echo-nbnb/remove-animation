@@ -1,0 +1,13 @@
+[
+  { "file": "case1.glb", "label": "case1", "size": 214167272 },
+  { "file": "caseForBottle.glb", "label": "caseForBottle", "size": 211324672 },
+  { "file": "door.glb", "label": "door", "size": 205620900 },
+  { "file": "floor.glb", "label": "floor", "size": 215221368 },
+  { "file": "garbeg.glb", "label": "garbeg", "size": 205736976 },
+  { "file": "jiazi.glb", "label": "jiazi", "size": 206593564 },
+  { "file": "light.glb", "label": "light", "size": 205950932 },
+  { "file": "smallSofa.glb", "label": "smallSofa", "size": 229255484 },
+  { "file": "smallTable.glb", "label": "smallTable", "size": 207668788 },
+  { "file": "sofaBig.glb", "label": "sofaBig", "size": 237367760 },
+  { "file": "TV.glb", "label": "TV", "size": 206076240 }
+]

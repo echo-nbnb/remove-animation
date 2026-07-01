@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReMove V2 Particle Furniture</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="./style.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "/three/build/three.module.js"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <main>
+      <div id="act-background" aria-hidden="true">
+        <div class="act-bg-layer is-active"></div>
+        <div class="act-bg-layer"></div>
+      </div>
+      <div id="three-container"></div>
+      <video id="actionVideo" class="overlay-video action-video" muted playsinline preload="auto"></video>
+      <video id="textVideo" class="overlay-video text-video" muted playsinline preload="auto"></video>
+
+      <footer class="bottom-ui" aria-label="Demo controls">
+        <section class="control-strip" aria-label="Particle controls">
+          <div class="status-line" id="loadStatus">
+            <strong id="message">Loading furniture set...</strong>
+            <span><b id="modelStatus">Idle</b> loaded</span>
+            <span><b id="particleStatus">0</b> particles</span>
+          </div>
+
+          <output class="shot-readout" id="shotReadout" aria-label="Camera and scene values">
+            Cam 0, 0, 0 | Target 0, 0, 0 | Scene 0, 0, 0
+          </output>
+        </section>
+
+        <nav class="act-switcher" aria-label="Act background switcher">
+          <button class="act-button active" type="button" data-act="1">Act 1</button>
+          <button class="act-button" type="button" data-act="2">Act 2</button>
+          <button class="act-button" type="button" data-act="3">Act 3</button>
+          <button class="act-button" type="button" data-act="4">Act 4</button>
+          <button class="act-button" type="button" data-act="5">Act 5</button>
+          <button class="act-button" type="button" data-act="6">Act 6</button>
+          <button class="act-button" type="button" data-act="7">Act 7</button>
+          <button class="act-button" type="button" data-act="7.1">Act 7-1</button>
+        </nav>
+      </footer>
+    </main>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
